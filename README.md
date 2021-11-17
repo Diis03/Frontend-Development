@@ -25,7 +25,7 @@ Blauw
 Surface plane
 
 #### Gekozen website:
-Nog geen website gekozen, maar vraag: mag het van alles zijn?
+Rituals
  
 </details>
 
@@ -39,15 +39,18 @@ Nog geen website gekozen, maar vraag: mag het van alles zijn?
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
-link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+Link naar de website die ik ga namaken:
+<a href="https://www.rituals.com/nl-nl/home?gclid=CjwKCAiA7dKMBhBCEiwAO_crFOYymkhQO6RGSX035LMTfo6D3btGV6WR75l2s_9AW_4IVeQfyGSxNxoC9rMQAvD_BwE&gclsrc=aw.ds">Rituals</a>
 
 #### Screenshot(s) van de eerste pagina (small screen): 
-hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+Douche & Badproducten
+<img src="images/douche_bad_producten" width="375px" alt="pagina met producten, screenshot 1">
+<img src="images/douche_bad_producten1" width="375px" alt="pagina met producten, screenshot 2">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+Magazine 
+<img src="images/rituals_magazine" width="375px" alt="pagina met de magazine erop, screenshot 1">
+<img src="images/rituals_magazine1" width="375px" alt="pagina met de magazine erop, screenshot 2">
  
 </details>
 
