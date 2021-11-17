@@ -44,13 +44,13 @@ Link naar de website die ik ga namaken:
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 Douche & Badproducten
-<img src="images/douche_bad_producten" width="375px" alt="pagina met producten, screenshot 1">
-<img src="images/douche_bad_producten1" width="375px" alt="pagina met producten, screenshot 2">
+<img src="../images/douche_bad_producten" width="375px" alt="pagina met producten, screenshot 1">
+<img src="../images/douche_bad_producten1" width="375px" alt="pagina met producten, screenshot 2">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 Magazine 
-<img src="images/rituals_magazine" width="375px" alt="pagina met de magazine erop, screenshot 1">
-<img src="images/rituals_magazine1" width="375px" alt="pagina met de magazine erop, screenshot 2">
+<img src="../images/rituals_magazine" width="375px" alt="pagina met de magazine erop, screenshot 1">
+<img src="../images/rituals_magazine1" width="375px" alt="pagina met de magazine erop, screenshot 2">
  
 </details>
 
