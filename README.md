@@ -82,8 +82,17 @@ Magazine
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik heb door omstandigheden niet echt veel aan de code gedaan. Ik weet wel welke informatie waar moet
+komen, maar vind het lastig om dat te doen. Ik heb dus vooral in html gewerkt om een beginnetje gemaakt
+te hebben. Ik moet verder dus nog goed naar alles in css kijken. Er staat een klein deel in css verwerkt,
+maar dat is echt een heel klein deel.
 
+<img src="images/code_html1_voortgang1" width="375px" alt="code html voortgang 1">
+<img src="images/code_html2_voortgang1" width="375px" alt="code html voortgang 1">
+<img src="images/code_css_voortgang1" width="375px" alt="code css voortgang 1">
+
+<img src="images/home_page_voortgang1" width="375px" alt="screenshot van huidige staat">
+<img src="images/scentedcandle_page_voortgang1" width="375px" alt="screenshot van huidige staat">
 
 ### Agenda voor meeting
 samen met je groepje opstellen
