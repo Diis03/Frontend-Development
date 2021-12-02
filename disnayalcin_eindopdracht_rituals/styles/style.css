@@ -1,44 +1,334 @@
-/*navigation in header*/
+
+/* Algemene Custom Properties */
+:root {
+  --main-color:#333;
+  --background-color: #eeeeee;
+  --background-highlight-color:#fff;
+}
+
+
+
+
+
+/* Algemene Stijlen */
 body {
-    margin: 0;
-    font-family: Georgia, Arial, Helvetica, sans-serif;
-  }
-  
-  .topnav {
-    overflow: hidden;
-    background-color: rgb(34, 34, 34);
-  }
-  
-  .topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
+  margin: 0;
+  padding: var(--white-space);
+  background-color: var(--background-color);
+  font-family: 'Times New Roman', Georgia, Arial, Helvetica, sans-serif;
+  color: var(--main-color);
+}
 
-/*"shop jouw box" button*/
-.shopjouwbox_button {
-    background-color: rgb(34, 34, 34);
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    text-transform: uppercase;
-  }
 
-/*"In winkelmand" button*/
+
+
+
+/* Homepage - HEADER */
+header{
+
+}
+
+header nav {
+
+}
+
+header nav ul{
+
+}
+
+header nav ul li {
+
+}
+
+header nav ul li a{
+  color: green;
+}
+
+
+
+
+
+/* Homepage - MAIN: SECTION 1 */
+main > article:first-of-type{
+  position: relative;
+  width: 100vw;
+  height: 20em;
+  background-image: url(../images/2021_May_Green_Friday_Ayurveda_Refills.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+
+/* H1 - Homepage */
+main > article:first-of-type h1 {
+  font-size: .5em;
+  visibility: hidden;
+}
+
+/* Titel - Green Friday Box */
+main > article:first-of-type h2 {
+  position: absolute;
+  left: 1em; 
+  right: 1em; 
+  top: .5em; 
+
+  text-align: center;
+  text-decoration: none;
+  color:white;
+  font-size: 2em;
+  font-weight: lighter;
+  text-shadow: 0.15em .1em 0.2em black;
+}
+
+/* Image - Green Friday Box */
+main > article:first-of-type img {
+  width: 100vw;
+  height: 21em;
+  object-fit: cover;
+}
+
+/* Inleiding - Green Friday Box */
+main > article:first-of-type p {
+  position: absolute;
+  left: 1em; 
+  right: 1em; 
+  top: 3.5em; 
+  
+  text-align: center;
+  text-decoration: none;
+  color:white;
+  font-size: 1.2em;
+  font-weight: lighter;
+  line-height: 1.2em;
+  text-shadow: 0.15em .1em 0.2em black;
+  letter-spacing: .15em;
+}
+
+/* Button - Shop jouw box */
+main > article:first-of-type a {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 2em; 
+
+  background-color: rgb(34, 34, 34);
+  width: 40%;
+  border: none;
+  padding: .9em 1em;
+  margin: .25em .1em;
+  box-shadow: .2em .2em .5em black;
+  cursor: pointer;
+
+  font-size: 1.1em;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  transition: 1s;
+  font-weight: lighter;
+}
+
+main > article:first-of-type a:hover{
+  background-color: royalblue;
+  color: aquamarine;
+  /* transition: 1s; */
+}
+
+main > article:nth-of-type(2){
+  display: block;
+  position: relative;
+  width: 100vw;
+}
+
+
+
+
+
+/* Homepage - MAIN: SECTION 2 */
+main > article:nth-of-type(2){
+  position: relative;
+  width: 100vw;
+  height: 20em;
+  background-color: white;
+  display: block;
+}
+
+/* H2 - Home Collection */
+main > article:nth-of-type(2) h2 {
+  position: absolute;
+  left: 1em; 
+  right: 1em; 
+  top: .5em; 
+
+  text-align: center;
+  text-decoration: none;
+  color: #1A1919;
+  font-size: 1.7em;
+  font-weight: lighter;
+  text-shadow: .05em .05em 0.2em black;
+}
+
+/* Beschrijving - Home Collection */
+main > article:nth-of-type(2) p {
+  position: absolute;
+  left: 1em; 
+  right: 1em; 
+  top: .5em; 
+  
+  text-align: center;
+  text-decoration: none;
+  color: #1A1919;
+  font-size: 1.2em;
+  font-weight: lighter;
+  line-height: 1.2em;
+  text-shadow: 0.15em .1em 0.2em black;
+  letter-spacing: .15em;
+}
+
+/* Button - Ontdek nu*/
+main > section:nth-of-type(2) a {
+  background-color: rgb(34, 34, 34);
+  border: none;
+  color: white;
+  padding: .9em 2em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: .9em;
+  margin: .25em .1em;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+/* Image - Home Collection */
+main > article:nth-of-type(2) img {
+  position: absolute;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/*SHOP NU - HOME COLLECTION BUTTON*/
+section:nth-of-type(3) a {
+  background-color: rgb(34, 34, 34);
+  border: none;
+  color: white;
+  padding: .9em 2em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: .9em;
+  margin: .25em .1em;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+/*IMAGE - HANDWASH*/
+section:nth-of-type(3) img {
+  width: 18.6em;
+  height: 21em;
+  object-fit: cover;
+}
+
+
+
+
+
+
+/*SHOP NU - SERENDIPITY BUTTON*/
+section:nth-of-type(4) a {
+  background-color: rgb(34, 34, 34);
+  border: none;
+  color: white;
+  padding: .9em 2em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: .9em;
+  margin: .25em .1em;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*IMAGE - SERENDIPITY*/
+section:nth-of-type(4) img {
+  width: 18.6em;
+  height: 21em;
+  object-fit: cover;
+}
+
+
+
+
+
+/*FEEDBACK - STICKY BUTTON*/
+main > li {
+  position: sticky;
+  right: 0;
+  top: 0;
+  bottom: 0;
+
+  margin: 0;
+  padding: .5em;
+  
+  background-color: rgb(34, 34, 34);
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: .9em;
+  cursor: pointer;
+  text-transform: uppercase;
+  
+  writing-mode:vertical-rl;
+}
+
+main > li:hover{
+  background-color: gray;
+  border-radius: 10%;
+  transition: .5s;
+
+}
+
+main > li a{
+  color:beige;
+}
+
+main > li a:hover{
+  color: red;
+}
+
+
+
+
+
+
+
+
+
+/*PAGINA 2!!*/
+
+/*IN WINKELMAND - BUTTON*/
 .inwinkelmand_button {
     background-color: rgb(34, 34, 34);
     border: none;
