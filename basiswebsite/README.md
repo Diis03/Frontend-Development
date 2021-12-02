@@ -107,9 +107,10 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
+- punt 1: Ik moet goed kijken naar hoe ik mijn css verder ga uitwerken. Ik was al wel goed opweg, maar dat was nog niet genoeg.
+- punt 2: Ik had classes gebruikt en die mogen niet gebruikt worden voor deze opdracht. Bo had mij de tip gegeven om het op een
+          andere manier te doen.
+- punt 3: In mijn css had ik gebruik gemaakt van px. Deze kon ik nog het beste omzetten in em of %.
 - ...
 
 </details>
