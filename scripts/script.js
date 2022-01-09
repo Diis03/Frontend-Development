@@ -8,3 +8,6 @@ function menuAnimatie() {
 }
 
 hamburgerButton.addEventListener("click", menuAnimatie);
+
+
+
