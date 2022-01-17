@@ -134,81 +134,75 @@ LINK NAAR VIDEO >> https://www.youtube.com/watch?v=flItyHiDm7E */
 
 
 
-/*FOOTER - Homepage */
+/* FOOTER - Homepage */
 .home footer {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10em;
+  position: relative;
+  top: 20em;
 
   width: 100vw;
-  height: 30em;
+  height: 25em;
   background-color: #1A1919;
 }
 
 .home footer > ul:first-of-type {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 1em;
+  position:relative;
+  margin:5vw 0 0 0;
+  padding:1em;
+  list-style:none;
 }
 
-.home footer > ul:first-of-type li{
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
-  font-size: 1.1em;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  transition: 1s;
-  font-weight: lighter;
-  border: none;
-  cursor: pointer;
-  box-shadow: .2em .2em .5em black;
-  padding: .5em;
-  list-style-type: none;
-} 
+.home footer > ul:first-of-type {
+  display:flex;
+  justify-content: center;
+  justify-content:space-between;
+}
 
-
+.home footer > section:first-of-type img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3em;
+  height: 6em;
+  width: 6em;
+}
 
 
 
 
 /* FOOTER - Scented Candle page */
-.candle footer > section:first-of-type {
+.candle footer {
   position: relative;
-  top: 23em;
-  
+  top: 15em;
+
   width: 100vw;
-  height: 25em;
-  display: block;
+  height: 15em;
   background-color: #1A1919;
 }
 
-/* FOOTER, buttons - Homepage */
-.candle footer > section:first-of-type a {
+.candle footer > ul:first-of-type {
   position: relative;
-  top: 3em;
-  left: 3em;
-
-  border: solid;
-  border-width: .1em;
-  color: white;
-  padding: 0.9em 2em;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 1em;
-  margin: 0.25em 0.1em;
-  cursor: pointer;
-  text-transform: uppercase;
+  margin: 5vw 0 0 0;
+  padding: 1em;
+  list-style:none;
 }
 
-/* FOOTER, logo - Homepage */
+.candle footer > ul:first-of-type {
+  display:flex;
+  justify-content: center;
+  justify-content:space-between;
+}
+
 .candle footer > section:first-of-type img {
-  position: relative;
-  bottom: -11em;
-  left: -1em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3em;
+  height: 6em;
+  width: 6em;
 }
+
+
+
 
 
 
@@ -1167,4 +1161,14 @@ LINK NAAR VIDEO >> https://www.youtube.com/watch?v=flItyHiDm7E */
 
 
 
+
+
+
+
+
+
+/* MEDIA QUERIES
+@media screen and (max-width: 43.75em) {
+   
+} */
 

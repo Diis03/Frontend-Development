@@ -257,7 +257,17 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. 
+Bronnen Iconen footers:
+1. Facebook Icoon: https://icon-library.com/icon/facebook-white-icon-12.html
+2. Twitter Icoon: https://iconsplace.com/white-icons/twitter-icon-18/
+3. Pinterest Icoon: https://www.freeiconspng.com/img/3206
+4. YouTube Icoon: https://icon-library.com/icon/white-youtube-icon-15.html
+5. Instagram Icoon: https://www.cornelisdehoutman.nl/blog/attachment/instagram-icon-white-3/
+6. Appstore Icoon: https://www.pinterest.com/pin/607774912211406140/
+
+
+
+1. https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_image
 2. bron 2
 3. ...
 
