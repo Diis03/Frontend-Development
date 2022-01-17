@@ -23,7 +23,7 @@ body {
 
 
 
-/* HAMBURGER MENU - beide pagina's */
+/* HAMBURGER MENU - beide pagina's
 header {
   background-color: var(--main-color);
 }
@@ -119,7 +119,7 @@ header nav section span {
   header nav ul li {
     margin: 1em 0;
   }
-}
+} */
 
 
 
@@ -134,59 +134,40 @@ LINK NAAR VIDEO >> https://www.youtube.com/watch?v=flItyHiDm7E */
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*FOOTER - Homepage */
-.home footer > section:first-of-type {
+.home footer {
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 10em;
 
   width: 100vw;
-  height: 25em;
+  height: 30em;
   background-color: #1A1919;
 }
 
-/* FOOTER, buttons - Homepage
 .home footer > ul:first-of-type {
-  display: inline;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 11em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
+}
 
-  border: solid;
-  border-width: .1em;
-  color: white;
+.home footer > ul:first-of-type li{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 1.1em;
   text-align: center;
   text-decoration: none;
-  font-size: 1em;
-  cursor: pointer;
   text-transform: uppercase;
-} */
+  transition: 1s;
+  font-weight: lighter;
+  border: none;
+  cursor: pointer;
+  box-shadow: .2em .2em .5em black;
+  padding: .5em;
+  list-style-type: none;
+} 
 
-/* FOOTER, logo - Homepage
-.home footer > section:nth-of-type(4) img {
-  position: relative;
-  bottom: -11em;
-  left: -1em;
-} */
 
 
 
@@ -434,7 +415,7 @@ LINK NAAR VIDEO >> https://www.youtube.com/watch?v=flItyHiDm7E */
 }
 
 /* PARAGRAPH 1 - (Ondertiteling:) Private collection */
-.home main > section:nth-of-type(3) article:nth-of-type(2) p {
+.home main > section:nth-of-type(3) article:nth-of-type(2) p:first-of-type {
   font-size: .9em;
   text-align: center;
   text-decoration: none;
@@ -445,6 +426,15 @@ LINK NAAR VIDEO >> https://www.youtube.com/watch?v=flItyHiDm7E */
 }
 
 /* PARAGRAPH 2 - Naam en prijs (TOEVOEGEN) */
+.home main > section:nth-of-type(3) article:nth-of-type(2) p:nth-of-type(2) {
+  text-align: center;
+  text-decoration: none;
+  color: #1A1919;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  letter-spacing: .15em;
+}
+
 
 /* IMAGE - Handwash */
 .home main > section:nth-of-type(3) article:nth-of-type(2) img {
