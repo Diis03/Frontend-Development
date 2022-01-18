@@ -24,107 +24,10 @@ body {
 
 
 /* HAMBURGER MENU - beide pagina's
-header {
-  background-color: var(--main-color);
-}
-
-header nav {
-  min-height: 4.4em;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 1em;
-}
-
-header nav ul {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 3.8em;
-}
-
-header nav ul li {
-  list-style: none;
-}
-
-header nav ul li a {
-  color: white;
-  text-decoration: none;
-  transition: 0.7s ease;
-}
-
-header nav ul li a:hover {
-  color: royalblue;
-}
-
-header nav button {
-  display: none;
-  cursor: pointer;
-}
-
-header nav button span {
-  display: block;
-  width: 1.6em;
-  height: .2em;
-  margin: .3em auto;
-}
-
-header nav section {
-  display: none;
-  cursor: pointer;
-}
-
-header nav section span {
-  display: block;
-  width: 1.6em;
-  height: .2em;
-  margin: .3em;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
-@media(max-width: 48em){
-  header nav section{
-    display: block;
-  }
-
-  header nav section .active span:nth-child(2){
-    opacity: 0;
-  }
-
-  header nav section .active span:nth-child(1){
-    transform: translateY(.5em) rotate(45deg);
-  }
-
-  header nav section .active span:nth-child(3){
-    transform: translateY(-.5em) rotate(-45deg);
-  }
-
-  header nav ul {
-    position: sticky;
-    left: -100%;
-    top: 4.4em;
-    gap: 0;
-    flex-direction: column;
-    background-color: #262626;
-    width: 100%;
-    text-align: center;
-    transition: 0.3s;
-  }
-
-  header nav ul .active{
-    left: 0;
-  }
-
-  header nav ul li {
-    margin: 1em 0;
-  }
-} */
+header (nieuwe poging met uitproberen) */
 
 
 
-/* VERDER PROBEREN MET TUTORIAL LATER!!
-LINK NAAR VIDEO >> https://www.youtube.com/watch?v=flItyHiDm7E */
 
 
 
