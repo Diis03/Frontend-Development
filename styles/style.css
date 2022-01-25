@@ -2,8 +2,8 @@
 /* Algemene Custom Properties */
 :root {
   --main-color:#333;
-  --background-color: #eeeeee;
-  --background-highlight-color:#fff;
+  --background-color: #fff;
+  --background-highlight-color:#eeeeee;
 }
 
 
@@ -25,6 +25,40 @@ body {
 
 /* HAMBURGER MENU - beide pagina's
 header (nieuwe poging met uitproberen) */
+header > nav button {
+	background-color: #453F3F;
+  height: 3em;
+	width: 3em;
+}
+
+header > nav button span {
+  color: white;
+}
+
+header > nav ul {
+	display: none;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	flex-direction: column;
+}
+
+header > nav li {
+	padding: .5em;
+	margin: 0;
+	background: #453F3F;
+  width: 30%;
+  font-size: 1em;
+}
+
+header > nav li a {
+  color: white;
+}
+
+header > nav ul.open-menu {
+	display: flex;
+}
+
 
 
 
@@ -234,13 +268,6 @@ header (nieuwe poging met uitproberen) */
 
 
 /* Homepage - MAIN: SECTION 3 - ARTICLE 1 */
-.home main > section:nth-of-type(3) article:first-of-type{
-  display: block;
-  width: 100vw;
-  height: 30em;
-  background-color: white;
-}
-
 /* H2 - Titel: Home Collection */
 .home main > section:nth-of-type(3) article:first-of-type h2 {
   text-align: center;
@@ -293,15 +320,6 @@ header (nieuwe poging met uitproberen) */
 
 
 /* Homepage - MAIN: SECTION 3 - ARTICLE 2 */
-.home main > section:nth-of-type(3) article:nth-of-type(2) {
-  display: block;
-  margin-top: 3em;
-
-  width: 100vw;
-  height: 40em;
-  background-color: white;
-}
-
 /* H2 - Titel: Handwash */
 .home main > section:nth-of-type(3) article:nth-of-type(2) h2 {
   text-align: center;
@@ -365,15 +383,6 @@ header (nieuwe poging met uitproberen) */
 
 
 /* Homepage - MAIN: SECTION 3 - ARTICLE 3 */
-.home main > section:nth-of-type(3) article:nth-of-type(3){
-  display: block;
-  margin-top: 3em;
-
-  width: 100vw;
-  height: 30em;
-  background-color: white;
-}
-
 /* H2 - Titel: Serendipity */
 .home main > section:nth-of-type(3) article:nth-of-type(3) h2 {
   text-align: center;
@@ -425,15 +434,6 @@ header (nieuwe poging met uitproberen) */
 
 
 /* Homepage - MAIN: SECTION 3 - ARTICLE 4 */
-.home main > section:nth-of-type(3) article:nth-of-type(4) {
-  display: block;
-  margin-top: 9em;
-
-  width: 100vw;
-  height: 30em;
-  background-color: white;
-}
-
 /* H2 - Ontdek My Rituals */
 .home main > section:nth-of-type(3) article:nth-of-type(4) h2 {
   text-align: center;
@@ -824,13 +824,6 @@ header (nieuwe poging met uitproberen) */
 
 
 /* Scented Candle page - MAIN: SECTION 3, ARTICLE 4*/
-.candle main > section:nth-of-type(3) article:nth-of-type(4) {
-  display: block;
-  margin-top: 3em;
-  height: 47em;
-  background-color: white;
-}
-
 /* H4 - Body scrub */
 .candle main > section:nth-of-type(3) article:nth-of-type(4) h4 {
   text-align: left;
@@ -905,13 +898,6 @@ header (nieuwe poging met uitproberen) */
 
 
 /* Scented Candle page - MAIN: SECTION 3, ARTICLE 5 */
-.candle main > section:nth-of-type(3) article:nth-of-type(5) {
-  display: block;
-  margin-top: 12em;
-  height: 59em;
-  background-color: white;
-}
-
 /* H4 - Foaming shower gel */
 .candle main > section:nth-of-type(3) article:nth-of-type(5) h4 {
   text-align: left;
@@ -986,13 +972,6 @@ header (nieuwe poging met uitproberen) */
 
 
 /* Scented Candle page - MAIN: SECTION 3, ARTICLE 6 */
-.candle main > section:nth-of-type(3) article:nth-of-type(6) {
-  display: block;
-  margin-top: 4em;
-  height: 65em;
-  background-color: white;
-}
-
 /* H4 - Bath Foam */
 .candle main > section:nth-of-type(3) article:nth-of-type(6) h4 {
   text-align: left;
